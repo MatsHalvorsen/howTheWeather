@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <title>Værdu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <video autoplay muted loop id="myVideo">
+        <source src="/cloudss.mp4">
+    </video>
+
+    <div class="centerContainer">
+        <div class="container">
+            <div class="input">
+                <input type="text" class="inputValue" placeholder="Enter location">
+                <button class="button"><i class="fa fa-search"></i></button>
+            </div>
+
+        <div class="displayWeather">
+            <h1 class="temp">°C</h1>
+            <p class="desc">Beskrivelse:</p>
+            <p class="wind">Vind:</p>
+        </div>
+
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+
+</body>
+</html>
